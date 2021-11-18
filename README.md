@@ -35,7 +35,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [Add live site URL here](https://tabetommy.github.io/ecommerce-product-page/)
+- Live Site URL:(https://tabetommy.github.io/ecommerce-product-page/)
 
 ## My process
 
