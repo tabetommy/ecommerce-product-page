@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <div class="main">
+    <nav>
+      <div class="navbar">
+        <a href="#" class="sneakers">sneakers</a>
+        <a href="#">Collections</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="icon-menu">
+        <img src="./images/icon-menu.svg" >
+        <h1>sneakers</h1>
+      </div>
+      <div class="navbar-img">
+        <div class="cart-div">
+          <img src="./images/icon-cart.svg" alt="cart" id="cart">
+        </div>
+        <div class="avatar-div">
+           <img src="./images/image-avatar.png" alt="avatar" class="avatar">
+        </div>  
+      </div>
+    </nav>
+    <hr id="hr-line-1">
+    <section>
+      <div class="items-container"> 
+        <img src="./images/image-product-1.jpg" alt="image-product-1" id="image-product-1">
+        <button class="previous"><img src="./images/icon-previous.svg" alt="icon-previous" class="icon-previous"></button>
+        <button class="next"><img src="./images/icon-next.svg" alt="icon-next" class="icon-next"></button>  
+      </div>
+      <div class="image-items-L"> 
+        <img src="./images/image-product-1.jpg" alt="image_1L" class="image_1Large">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="image_1" class="thumbnail">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="image_2" class="thumbnail">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="image_3" class="thumbnail">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="image_4" class="thumbnail">
+      </div>
+      <div class="sales-details">
+        <p>SNEAKER COMPANY</p>
+        <h1> Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a 
+           durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <div class="prices">
+          <div class="prices_2">
+           <span>$125.00</span>
+           <span>50%</span>  
+          </div>
+           <span id="reduced-price">$250.00</span>
+        </div>
+       
+        <div class="buy-items">
+          <div class="add-items">
+            <button class="minus"><img src="./images/icon-minus.svg" alt="minus"></button>
+            <span id="counter">0</span>
+            <button class="plus"><img src="./images/icon-plus.svg" alt="plus"></button>
+          </div>
+          <a class="add-to-cart" href="#cart"><img src="./images/icon-cart-white.svg" alt="cart" class="cart-2"> Add to cart</a>
+        </div>    
+      </div>  
+    </section>
+  </div>
+  <div id="lightbox">
+    <div id="icon-close">
+      <img src="./images/icon-close.svg" alt="icon-close" id="icon-close-img">
+    </div> 
+    <div id="new-img-con"></div> 
+    <div class="lightbox-img">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="image_1" class="lightbox-thumbnail">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="image_2" class="lightbox-thumbnail">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="image_3" class="lightbox-thumbnail">
+        <img src="./images/image-product-4-thumbnail.jpg" alt="image_4" class="lightbox-thumbnail">
+    </div>
+  </div>
+  <div class="filled-cart">
+    <p id="cart-text">Cart</p>
+    <hr id="ver-line">
+    <div class="filled-cart-details">
+      <div id="selection-img">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" id="img-pro-1-tn">
+      </div>
+      <div id="total-price">
+        <p>Autumn Limited Edition...</p>
+        <div>
+          <span id="total-price-1"></span>
+          <span id="total-price-2"></span>
+        </div>
+      </div>
+      <div>
+        <img src="./images/icon-delete.svg" alt="icon-delete" id="icon-delete">
+      </div>
+    </div>
+    <div id="checkout-con">
+      <button id="checkout-btn">Checkout</button> 
+    </div>
+  </div>
+  <div class="empty-cart">
+    <p id="cart-text-1">Cart</p>
+    <hr id="ver-line">
+    <div id="empty-cart-text">
+      <p>Your cart is empty</p>
+    </div>
+
+  </div>
+  <div id="lightbox-menu">
+    <div id="menu-whiteback">
+      <div id="icon-close-menu">
+        <img src="./images/icon-close.svg" alt="icon-close" id="icon-close-img-menu">
+      </div> 
+      <div id="menu-items">
+        <a href="#">Collections</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="#">Tommy Tabe</a>.
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
