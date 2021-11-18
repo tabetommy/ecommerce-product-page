@@ -60,8 +60,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) - This is an amazing article which helped me further understand CSS grid. I'd recommend it to anyone still learning this concept.
 
 
